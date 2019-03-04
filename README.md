@@ -125,7 +125,7 @@ Total:      |    5 | 477 | 744.6 |    400 |  15350
 
  Percentage of the requests served within a certain time (ms)
 
-|Hipache | Nginx-lua-proxy |
+|Percent | Hipache | Nginx-lua-proxy |
 |----|------|-------------- |
 |50% |  400 |  111 |
 |66% |  484 |  120 |
