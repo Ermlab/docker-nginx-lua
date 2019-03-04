@@ -123,9 +123,9 @@ Total:      |    5 | 477 | 744.6 |    400 |  15350
  Total:       |  46 | 144 | 197.9 |   111 |   3298
 
 
- Percentage of the requests served within a certain time (ms)
+### Percentage of the requests served within a certain time(ms) - lower is better
 
-|Percent | Hipache | Nginx-lua-proxy |
+|Percent | Hipache (ms) | Nginx-lua-proxy (ms) |
 |----|------|-------------- |
 |50% |  400 |  111 |
 |66% |  484 |  120 |
@@ -133,8 +133,8 @@ Total:      |    5 | 477 | 744.6 |    400 |  15350
 |80% |  584 |  129 |
 |90% |  687 |  138 |
 |95% |  794 |  152 |
-|98% |  897 | 1098 |
-|99% | 1032 | 1115 |
+|98% |  897 | 198 |
+|99% | 1032 | 515 |
 |100% (longest request) |15350 |  3298 |
 
 
