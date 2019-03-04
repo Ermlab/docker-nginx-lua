@@ -1,5 +1,4 @@
-# nginx-lua-proxy - dockerized Nginx+Lua dynamic proxy with redis store for backends
-
+# Runtime dynamic nginx proxy based on url stored in Redis
 
 ![Docker stars](https://img.shields.io/docker/stars/ermlab/nginx-lua-proxy.png "Docker stars")
 &nbsp;
@@ -8,6 +7,11 @@
 [![Docker repo](https://github.com/Ermlab/nginx-lua-proxy/blob/master/images/docker.png?raw=true "Docker repo")](https://hub.docker.com/r/ermlab/nginx-lua-proxy/)
 &nbsp;
 [![Github repo](https://github.com/Ermlab/nginx-lua-proxy/blob/master/images/github.png?raw=true "Github repo")](https://github.com/Ermlab/nginx-lua-proxy)
+
+
+The project will help you create in runtime dynamic routing backend based on URL stored in Redis.
+If you want to dynamically create or serve some backend (web app, vm or other services) for your users you can save custom url in Redis and it will work without restarting the nginx.
+
 
 The main goal is to build the counterpart of hipache (https://github.com/hipache/hipache) with nginx.
 The proxy tries to find the host in redis database and without the reloading (proxy server) use it as upstream server.
@@ -18,7 +22,7 @@ This procject is based on wonderfull projects:
 * https://github.com/danday74/docker-nginx-lua
 * https://github.com/samalba/hipache-nginx
 
-## Usage# nginx-lua-proxy - dockerized Nginx+Lua dynamic proxy with Redis store for backends
+## Usage
 
 
 ![Docker stars](https://img.shields.io/docker/stars/ermlab/nginx-lua-proxy.png "Docker stars")
