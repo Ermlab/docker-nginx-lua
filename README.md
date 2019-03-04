@@ -25,26 +25,6 @@ This procject is based on wonderfull projects:
 ## Usage
 
 
-![Docker stars](https://img.shields.io/docker/stars/ermlab/nginx-lua-proxy.png "Docker stars")
-&nbsp;
-![Docker pulls](https://img.shields.io/docker/pulls/ermlab/nginx-lua-proxy.png "Docker pulls")
-
-[![Docker repo](https://github.com/Ermlab/nginx-lua-proxy/blob/master/images/docker.png?raw=true "Docker repo")](https://hub.docker.com/r/ermlab/nginx-lua-proxy/)
-&nbsp;
-[![Github repo](https://github.com/Ermlab/nginx-lua-proxy/blob/master/images/github.png?raw=true "Github repo")](https://github.com/Ermlab/nginx-lua-proxy)
-
-The main goal is to build the counterpart of hipache (https://github.com/hipache/hipache) with nginx.
-The proxy tries to find the host in redis database and without the reloading (proxy server) use it as the upstream server.
-
-The data stored in Redis is in the same format as in hipache. All code is built from source.
-
-This project is based on wonderful projects:
-* https://github.com/danday74/docker-nginx-lua
-* https://github.com/samalba/hipache-nginx
-
-## Usage
-
-
 1. Run REDIS database, it is essential to name it **redis**, because the lua resty redis connection objects rely on hostname=redis,
 
     ```
